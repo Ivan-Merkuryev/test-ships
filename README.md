@@ -23,7 +23,7 @@
 
 ## Запуск проекта
 
-1. Клонируйте репозиторий: `git clone `
+1. Клонируйте репозиторий: `git clone https://github.com/Ivan-Merkuryev/test-ships.git`
 2. Перейдите в директорию проекта: `cd test-ships`
 3. Установите зависимости: `npm install`
 4. Запустите проект: `npm run dev`
