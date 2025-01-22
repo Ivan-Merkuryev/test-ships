@@ -1,0 +1,40 @@
+.ship
+    @apply max-w-[550px] flex flex-col justify-start bg-blue-600 bg-opacity-10 mb-8 px-4 pb-4 relative border border-[#e5e5e5]
+.title
+    @apply text-2xl
+.iconNation
+    @apply w-40 absolute right-4 top-4
+    z-index: 1
+.img
+    @apply h-[303.9px] w-[516.4px]
+    transition: all 0.4s ease
+    z-index: 2 
+.type
+    @apply text-xl my-2
+.button
+    @apply border border-[#e5e5e5] border-solid w-[120px] mx-auto bg-transparent mb-2
+.ship:hover .img
+    transform: scale(1.2)
+    transition: all 0.5s ease
+@media screen and (max-width: 880px)
+    .ship
+        @apply max-w-[500px]
+    .img
+        @apply h-[274.48px] w-[466.4px]
+@media screen and (max-width: 770px)
+    .ship
+        @apply max-w-[420px] px-2 pb-2
+    .iconNation
+       @apply w-32
+    .img
+        @apply h-[236.81px] w-[402.4px]
+@media screen and (max-width: 700px)
+    .ship:hover .img
+        transform: scale(1)
+@media screen and (max-width: 435px)
+    .ship
+        @apply max-w-[330px]
+    .img
+        @apply h-[183.84px] w-[312.4px]
+
+        

@@ -1,0 +1,44 @@
+.filterCard
+    @apply w-[300px] border border-[#e5e5e5] relative
+.card
+    @apply h-36 flex flex-col justify-center w-full 
+.level
+    @apply text-6xl text-center
+.allLevel
+    @apply text-3xl text-center
+.nation
+    @apply h-full flex flex-col justify-center items-center 
+    span 
+        @apply text-3xl
+.imgNation
+    @apply w-40
+.type
+    @apply flex flex-col justify-center items-center
+    span 
+        @apply text-3xl 
+.typeImg
+    @apply w-28
+.swiperNavCont
+    @apply absolute w-full flex justify-between
+    transform: translateY(-50%) 
+    top: 50%
+    z-index: 1
+    buttom
+        img
+            fill: #e5e5e5
+@media screen and (max-width: 880px)
+    .filterCard
+        @apply w-[250px]
+@media screen and (max-width: 700px)
+    .filterCard
+        @apply w-full
+    .type span, .nation span, .allLevel
+        @apply text-2xl
+@media screen and (max-width: 670px)
+    .typeImg
+            @apply w-20
+    .imgNation
+            @apply w-28
+@media screen and (max-width: 450px)
+    .type span, .nation span, .allLevel
+        @apply text-xl

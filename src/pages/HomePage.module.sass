@@ -1,0 +1,25 @@
+.home
+    @apply w-full flex justify-around pt-2
+    max-width: 1280px
+    width: 97%
+    margin: 0 auto
+    min-height: 100vh
+.h1
+    @apply text-white text-center my-2
+.ships
+    @apply w-full
+.filters
+    @apply h-min overflow-y-visible 
+    position: sticky
+    top: 0px
+.counter
+    @apply text-xl mt-8
+@media screen and (max-width: 700px)
+    .home
+        @apply flex-col-reverse
+    .h1
+        @apply text-3xl
+    .ships
+        @apply mx-auto justify-center flex flex-wrap
+    .filters
+        @apply static
